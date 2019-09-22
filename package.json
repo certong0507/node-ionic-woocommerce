@@ -1,0 +1,20 @@
+{
+  "name": "two-factor-authentication-node.js",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^4.0.0",
+    "ejs": "~2.5.7",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mysql": "^2.17.1",
+    "nexmo": "^2.2.0"
+  }
+}
